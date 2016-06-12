@@ -9,7 +9,6 @@ include_once __DIR__ . "/classes/AudioQuestion.php";
 include_once __DIR__ . "/classes/Response.php";
 include_once __DIR__ . "/classes/User.php";
 include_once __DIR__ . "/classes/RegisteredUser.php";
-include_once __DIR__ . "/classes/DataBase.php";
 
 
 $game = new \classes\Game();

@@ -1,6 +1,7 @@
 <?php
 include_once __DIR__ . "/classes/User.php";
 include_once __DIR__ . "/classes/UnregisteredUser.php";
+include_once __DIR__ . "/classes/DataBase.php";
 
 $user_exists = false;
 
