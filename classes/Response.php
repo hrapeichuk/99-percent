@@ -43,13 +43,10 @@ class Response
                 return false;
             }
         }
-        
         return true;
     }
 
     /**
-     * 
-     * 
      * @param $answer
      * @return bool
      */

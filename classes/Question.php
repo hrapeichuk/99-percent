@@ -20,6 +20,12 @@ abstract class Question
             case "image":
                 return new ImageQuestion();
                 break;
+            case "video":
+                return new VideoQuestion();
+                break;
+            case "audio":
+                return new AudioQuestion();
+                break;
             default:
                 throw new \BadMethodCallException('Invalid type');
         }
